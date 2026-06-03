@@ -44,16 +44,18 @@ Follow the steps below to ensure that the repository is 100% configured and form
 
 # 🎋 Branches Guidelines
 
-This is a best practices guide for creating new branches.
+This is a best practices guide for creating new branches. To begin:
 
-## For all Branches
+- For all branches other than **main**, create a `README.md` at the root of the Branch, to redirect to Branch **main**. If you want, copy this file from another repository.
+- For all branches (except **gh-pages**), make sure they have a folder called `.github` and that this folder contains the files `CONTRIBUTING.md` and `PULL_REQUEST_TEMPLATE.md`, as well as the **main** branch.
 
-Keep the same ".gitignore" file in all branches. This prevents one branch from accidentally considering a file ignored by another branch, which can cause a mess, and also helps maintain consistency across branches.
+> [!WARNING]
+> Keep the same ".gitignore" file in all branches. This prevents one branch from accidentally considering a file ignored by another branch, which can cause a mess, and also helps maintain consistency across branches.
 
-## For `gh-pages` Branch
+### Also, for `gh-pages` Branch
 
-a
+At the root of this branch, create a file called `.periodic_clean.md`. Copy it from another repository if you prefer. This file contains instructions to periodically reset the history of this branch, to prevent it from unnecessarily bloating the repository due to old files it once contained. This bloating causes the repository to grow unnecessarily, which can be a nuisance when cloning the repository or keeping it on your computer.
 
-## For Source Code Branches
+### Also, for Source Code Branches
 
-b
+The names of these Source Code or Project branches must follow the naming format `source-<operational-system-or-platform>-<framework-or-technology>`. For example: **source-1.20.1-forge**, **source-linux-javafx**, **source-web-vanilla.js**, **source-web-package.ts**, **source-game-modloader** or **source-any-unity**.
