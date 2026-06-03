@@ -1,4 +1,4 @@
-# 📒 New Repository Created
+# 📒 Steps to Run on New Repository Created
 
 Congratulations on creating your new repository! To begin, ensure that this repository and this README.md file are open in your browser on the GitHub website.
 
@@ -37,12 +37,11 @@ Follow the steps below to ensure that the repository is 100% configured and form
     - Create a `PULL_REQUEST_TEMPLATE.md` file. GitHub will use the contents of this file to populate the **Description** box when someone access the **Pull Request** creation page. Copy the content from another repository.
   - Create a file called `.gitignore` to ignore any files that don't need to be tracked by Git, such as framework builds, cache, etc.
   - Create a file `LICENSE`. Copy from another repository if necessary.
-  - Finally, create an `README.md` file. This file will be displayed by default by GitHub when someone accesses the GitHub site in this Branch, working as the repository's Showcase or Land Page. Follow the patterns of other `README.md` of other repositories.
 
 > [!NOTE]
 > Every binary file resulting from compilation, whether distributable or a distributable archive, that is released with each new version of the project, must be placed on the **Releases** page of the repository.
 
-# 🎋 Branches Guidelines
+# 🎋 Guidelines/Steps for Branches
 
 This is a best practices guide for creating new branches. To begin:
 
@@ -62,3 +61,7 @@ At the root of this branch, create a file called `.periodic_clean.md`. Copy it f
 ### Also, for Source Code Branches
 
 The names of these Source Code or Project branches must follow the naming format `source-<operational-system-or-platform>-<framework-or-technology>`. For example: **source-1.20.1-forge**, **source-linux-javafx**, **source-web-vanilla.js**, **source-web-package.ts**, **source-game-modloader** or **source-any-unity**.
+
+# 🏆 The Last Step
+
+Finally, create an `README.md` file on root of the **main** Branch. This file will be displayed by default by GitHub when someone accesses the GitHub site of this repository, working as the repository's Showcase or Land Page. Follow the patterns of other `README.md` of other repositories.
