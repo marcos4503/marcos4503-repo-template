@@ -52,6 +52,9 @@ This is a best practices guide for creating new branches. To begin:
 > [!WARNING]
 > Keep the same ".gitignore" file in all branches. This prevents one branch from accidentally considering a file ignored by another branch, which can cause a mess, and also helps maintain consistency across branches.
 
+> [!NOTE]
+> For managing multiple branches, it is recommended to install **Smart Branch Switch** in the Local Repository. This will help keep the work environment clean and organized, and will also provide alerts if anything is out of the ordinary, such as the absence of the files mentioned above. For more information about the **Smart Branch Switch**, click <a href="https://github.com/marcos4503/smart-branch-switch">here</a>.
+
 ### Also, for `gh-pages` Branch
 
 At the root of this branch, create a file called `.periodic_clean.md`. Copy it from another repository if you prefer. This file contains instructions to periodically reset the history of this branch, to prevent it from unnecessarily bloating the repository due to old files it once contained. This bloating causes the repository to grow unnecessarily, which can be a nuisance when cloning the repository or keeping it on your computer.
