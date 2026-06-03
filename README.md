@@ -15,7 +15,10 @@ Follow the steps below to ensure that the repository is 100% configured and form
     - In **Social Preview** Conteiner, provide a preview image. **Only if it's necessary** for your project.
     - In **Features**
       - Disable the **Wikis** box.
-      - Enable the **Sponsorships** box. You will need to create a file called `FUNDING.yml` in `.github/FUNDING.yml` in your repository.
+      - Enable the **Sponsorships** box. You will need to create a file called `FUNDING.yml` in `.github/FUNDING.yml` in your repository. If GitHub creates this file for you, copy the contents of file `FUNDING.yml` from another repository to this new file `FUNDING.yml` that you are creating.
       - Disable the **Projects** box.
   - In **Pages**
-    - 
+    - In **Branch**
+      - If the repository needs to make a Static Website or Files publicly available, create a branch called `gh-pages`. After that, in the Combo Box, select the newly created Branch `gh-pages`, select the root "/" of the Branch and click **Save**.
+- Return to the repository's homepage.
+- 
