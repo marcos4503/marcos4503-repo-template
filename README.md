@@ -4,8 +4,8 @@ Congratulations on creating your new repository! To begin, ensure that this repo
 
 Follow the steps below to ensure that the repository is 100% configured and formatted to the best repository standards.
 
-- Click the Gear icon (⚙️) side to Container of **About**, on the right side of the layout.
-  - In **Description**, set a description for the repository.
+- [ ] Click the Gear icon (⚙️) side to Container of **About**, on the right side of the layout.
+  - [ ] In **Description**, set a description for the repository.
   - If this repository's project has a website, specify it in the **Website** field.
   - In the **Topics** section, enter tags that correspond to the repository's content. (for example: "forge", "windows", etc.)
   - If this project will have releases, leave the **Releases** box checked.
