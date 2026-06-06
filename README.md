@@ -19,7 +19,7 @@ Follow the steps below to ensure that the repository is 100% configured and form
       - Disable the **Projects** box.
   - In **Pages**
     - In **Branch**
-      - If the repository needs to make a Static Website or Files publicly available, create a Branch called `gh-pages`. After that, in the Combo Box, select the newly created Branch `gh-pages`, select the root "/" of the Branch and click **Save**.
+      - If the repository needs to make a Static Website or Files publicly available, create a Branch called `gh-pages`. After that, in the Combo Box, select the newly created Branch `gh-pages`, select the root `/` of the Branch and click **Save**.
 - Return to the repository's homepage. From now on, the steps must be performed on files inside the repository. It is recommended that you clone the repository to edit the files and their contents more efficiently.
 - In **main** Branch
   - Create a folder called `.github`, if not exists. This section should contain files used exclusively for the repository, such as documentation images, workflows, templates, etc. Inside the `.github` folder:
