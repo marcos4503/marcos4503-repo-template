@@ -48,12 +48,9 @@ This is a best practices guide for creating new Branches. To begin:
 
 - For all Branches other than **main**, create a `README.md` at the root of the Branch, to redirect to Branch **main**. If you want, copy this file from another repository.
 - For all Branches (except **gh-pages**), make sure they have a folder called `.github` and that this folder contains the files `CONTRIBUTING.md` and `PULL_REQUEST_TEMPLATE.md`, as well as the **main** Branch.
+- Keep the same `.gitignore` file in all Branches. This prevents one Branch from accidentally considering/tracking a file ignored by another Branch, which can cause a mess, and also helps maintain consistency and predictability across Branches, while working on Local Repository.
 
-> [!WARNING]
-> Keep the same ".gitignore" file in all Branches. This prevents one Branch from accidentally considering a file ignored by another Branch, which can cause a mess, and also helps maintain consistency across Branches.
-
-> [!NOTE]
-> For managing multiple Branches, it is recommended to install **Smart Branch Switch** in the Local Repository. This will help keep the work environment clean and organized, and will also provide alerts if anything is out of the ordinary, such as the absence of the files mentioned above. For more information about the **Smart Branch Switch**, click <a href="https://github.com/marcos4503/smart-branch-switch">here</a>.
+ℹ️ For managing multiple Branches, it is recommended to install **Smart Branch Switch** in the Local Repository. This will help keep the work environment clean and organized, and will also provide alerts if anything is out of the ordinary, such as the absence of the files mentioned above. For more information about the **Smart Branch Switch**, click <a href="https://github.com/marcos4503/smart-branch-switch">here</a>.
 
 ### Also, for `gh-pages` Branch
 
@@ -61,7 +58,11 @@ At the root of this Branch, create a file called `.periodic_clean.md`. Copy it f
 
 ### Also, for Source Code Branches
 
-The names of these Source Code or Project Branches must follow the naming format `source-<operational-system-or-platform>-<framework-or-technology>`. For example: **source-1.20.1-forge**, **source-linux-javafx**, **source-web-vanilla.js**, **source-web-package.ts**, **source-game-modloader** or **source-any-unity**.
+The names of these Source Code or Project Branches must follow the naming format:
+
+- `source-<operational-system-or-platform>-<framework-or-technology>`
+
+For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web-vanilla.js`**, **`source-web-package.ts`**, **`source-game-modloader`** or **`source-any-unity`**.
 
 # 🏆 The Last Step
 
