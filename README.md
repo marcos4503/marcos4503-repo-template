@@ -66,4 +66,6 @@ For example: **`source-1.20.1-forge`**, **`source-linux-javafx`**, **`source-web
 
 # 🏆 The Last Step
 
+If you don't plan to leave the Source Code of your Repository in the **main** Branch, then create a folder called `.gitlang` in the root of the **main** Branch and place fake files there with the extensions of the languages ​​you want the GitHub **Languages** graph to display. This is useful because GitHub won't scan the Source Code of other Branches to generate the **Languages** ​​graph that appears in the Repository.
+
 Finally, create an `README.md` file on root of the **main** Branch. This file will be displayed by default by GitHub when someone accesses the GitHub site of this repository, working as the repository's Showcase or Land Page. Follow the patterns of other `README.md` of other repositories.
